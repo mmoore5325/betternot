@@ -1,0 +1,15 @@
+version: 0.0
+os: linux
+files:
+  - source: /.
+    destination: /var/www/html/
+permissions:
+   - object: /.
+     mode: 644
+hooks:
+  ValidateService:
+    - location: app.rb
+      timeout: 
+      runas: 
+   
+

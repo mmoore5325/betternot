@@ -16,7 +16,7 @@ set :environment, :production
 class Sinatra::Application
 
   get '/' do
-   "mike sucks"
+   "mike sucks at being worse than joe"
   end
 end
 
